@@ -8,10 +8,10 @@ logo:               'assets/img/logo.png'
 background:         'assets/img/placeholder-big.jpg'
 tiled_bg:           false   # Set this true if you want to tile your background image, otherwise it will be covered
 locale:             en_US
-url:                https://bronxi47.github.io/qncqs/
+url:                https://bronxi47.github.io/qncqs
 
 # Jekyll
-permalink:          /:title/
+permalink:          /qncqs
 markdown:           kramdown
 highlighter:        rouge
 kramdown:
