@@ -76,7 +76,7 @@ body {
 	padding-left: 15px;
 	@include center-block();
 	background-color: $violeta;
-	color: $color_shark;
+	color: $white;
 	z-index: 1;
 	border-radius: 3px;
 	box-shadow: 0 0 10px 0 rgba($color_shark,0.3);
@@ -108,7 +108,7 @@ body {
 	color: $color_tuatara;
 	padding: 2em;
 	border-radius: 3px;
-	box-shadow: 0 0 10px 0 rgba($color_shark,0.3);
+	box-shadow: 0 0 10px 0 rgba($white,0.3);
 	@include transition(.5s);
 	@media #{$small} {
 		width: 90%;
@@ -124,7 +124,7 @@ body {
 	color: $color_tuatara;
 	padding: 2em;
 	border-radius: 3px;
-	box-shadow: 0 0 10px 0 rgba($color_shark,0.3);
+	box-shadow: 0 0 10px 0 rgba($white,0.3);
 	@include transition(.5s);
 	@media #{$small} {
 		width: 90%;
@@ -165,7 +165,7 @@ body {
 		}
 		&:hover {
 			background-color: darken($violeta,15);
-			box-shadow: 0 0 1px 0 rgba($color_shark,0.5);
+			box-shadow: 0 0 1px 0 rgba($white,0.5);
 		}
 	}
 }
