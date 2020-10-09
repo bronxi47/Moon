@@ -53,7 +53,7 @@ h3.title a {
 		a {
 			@include font-rem(20);
 			text-decoration: none;
-			color: $color_shark;
+			color: $white;
 			font-weight: bolder;
             &:hover {
                 color: $red;
@@ -84,15 +84,15 @@ blockquote {
 figcaption {
     padding-top: 10px;
     @include font(14);
-    color: $color_stack;
+    color: $white;
 }
 
 // links
 a {
   transition: color .4s;
-  color: $color_shark;
+  color: $white;
   &:link {
-  	color: $color_shark;
+  	color: $white;
   }
   &:visited {
   	color: $color_tuatara;
