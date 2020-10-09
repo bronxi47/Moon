@@ -5,7 +5,7 @@
 	border-color: rgba($color_mercury,0.5) rgba($color_bon_jour,0.5) $color_mischka;
 	border-radius: 3px;
 	text-decoration: none;
-	background: $white;
+	background: $violeta;
 	color: $color_shark;
 	&:hover {
 		box-shadow: 0 0 1px 0 rgba($color_shark,0.5);
@@ -23,7 +23,7 @@
 	margin: 4px auto;
 	@extend %btnextend;
 	&.btn-success {
-      background-color: $violeta
+      background-color: $success;
       color: $white;
       border-color: $success;
       &:visited {
@@ -54,7 +54,7 @@
         color: $white;
       }
       &:hover {
-        background-color: $violeta;
+        background-color: $white;
         color: $danger;
       }
     }
