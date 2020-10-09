@@ -23,7 +23,7 @@
 	margin: 4px auto;
 	@extend %btnextend;
 	&.btn-success {
-      background-color: $success;
+      background-color: $violeta
       color: $white;
       border-color: $success;
       &:visited {
@@ -54,7 +54,7 @@
         color: $white;
       }
       &:hover {
-        background-color: $white;
+        background-color: $violeta;
         color: $danger;
       }
     }
