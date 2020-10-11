@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Q.uienes N.os C.reemos Q.ue S.omos RADIO
+title: Quienes Nos Creemos Que Somos RADIO
 tags: [radio, QNCQS, metal, beatles]
 date: 2020-10-10
 comments: false
