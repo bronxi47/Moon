@@ -105,7 +105,7 @@ body {
 	max-width: 850px;
 	margin: 4rem auto;
 	background: $violeta;
-	color: $color_tuatara;
+	color: $white;
 	padding: 2em;
 	border-radius: 3px;
 	box-shadow: 0 0 10px 0 rgba($white,0.3);
@@ -121,7 +121,7 @@ body {
 	max-width: 850px;
 	margin: -3rem auto 4rem;
 	background: $violeta;
-	color: $color_tuatara;
+	color: $white;
 	padding: 2em;
 	border-radius: 3px;
 	box-shadow: 0 0 10px 0 rgba($white,0.3);
@@ -136,7 +136,7 @@ body {
 .entry-meta {
 	@include font-rem(12);
 	text-transform: uppercase;
-	color: lighten($color_tuatara,60);
+	color: lighten($white,60);
 	padding-left: 0;
 	a {
 		color: lighten($color_tuatara,60);
